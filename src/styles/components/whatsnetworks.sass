@@ -1,0 +1,18 @@
+@use '../variables'
+@use '../mixins'
+
+#whats-networks
+    transform: translate(51px, -147px)
+
+    .social-btn
+        padding: .6rem
+        background-color: variables.$bg-color-secondary
+        border-radius: variables.$card-border-radius
+        color: #fff
+        font-size: 1.3rem 
+        @include mixins.center
+
+    :hover
+        background-color: #fff
+        > svg
+            color: #000
