@@ -1,5 +1,6 @@
 import GithubNetworks from "./GithubNetworks";
 import SocialNetworks from "./SocialNetworks";
+import WhatsNetworks from "./WhatsNetworks";
 import InformationContainer from "./InformationContainer";
 
 import "../styles/components/sidebar.sass";
@@ -15,6 +16,7 @@ const Sidebar = () => {
         <p className="title">Desenvolvedor Full Stack</p>
         <SocialNetworks />
         <GithubNetworks />
+        <WhatsNetworks />
         <InformationContainer />
         
         <a href="https://docs.google.com/uc?export=download&id=18yuNffSIKr_2cWTxIHfImFWhWA9wdJ2q" className="btn"> Curriculum download</a>
