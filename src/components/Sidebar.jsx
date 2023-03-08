@@ -13,8 +13,8 @@ const Sidebar = () => {
     return <aside id="sidebar">
         <img src={Avatar} alt="Alexandre Novaes" />
         <p className="title">Desenvolvedor Full Stack</p>
-        <GithubNetworks />
         <SocialNetworks />
+        <GithubNetworks />
         <InformationContainer />
         
         <a href="https://docs.google.com/uc?export=download&id=18yuNffSIKr_2cWTxIHfImFWhWA9wdJ2q" className="btn"> Curriculum download</a>

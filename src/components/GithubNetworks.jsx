@@ -8,7 +8,7 @@ const githubNetworks = [
 
 const GithubNetworks = () => {
     return (
-        <section id="guithub-networks">
+        <section id="github-networks">
             {githubNetworks.map((network) => (
                 <a href="https://github.com/alexandr30novaes" className="social-btn" id={network.github} key={network.github}>
                     {network.icon}
