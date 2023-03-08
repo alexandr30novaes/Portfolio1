@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 
-import MainContent from './components/MainContent';
+
 
 import "../src/styles/main.sass";
 
