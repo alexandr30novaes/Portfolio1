@@ -1,3 +1,4 @@
+import GithubNetworks from "./GithubNetworks";
 import SocialNetworks from "./SocialNetworks";
 import InformationContainer from "./InformationContainer";
 
@@ -12,6 +13,7 @@ const Sidebar = () => {
     return <aside id="sidebar">
         <img src={Avatar} alt="Alexandre Novaes" />
         <p className="title">Desenvolvedor Full Stack</p>
+        <GithubNetworks />
         <SocialNetworks />
         <InformationContainer />
         
