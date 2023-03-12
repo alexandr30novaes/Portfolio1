@@ -19,7 +19,7 @@ const Sidebar = () => {
         <WhatsNetworks />
         <InformationContainer />
         
-        <a href="https://docs.google.com/uc?export=download&id=1lbCWnG0rDRIw_8U6-X-F5Yp2Tdzg5anm" className="btn"> Curriculum download</a>
+        <a href="https://docs.google.com/uc?export=download&id=1Sx2-Gjh51hjWKTu40_tAN97RBONZaufh" className="btn"> Curriculum download</a>
 
     </aside>
     
